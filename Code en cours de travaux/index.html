@@ -20,12 +20,12 @@
             <img src="./images/logo/Booki.png" id="logo">
             <nav>
                 <ul>
-                    <il>
-                        <a href="#" id="lien-hebergements">Hébergements</a>
-                    </il>
-                    <il>
-                        <a href="#" id="activités">Activités</a>
-                    </il>
+                    <li>
+                        <a href="#hebergements" id="ancre-hebergements">Hébergements</a>
+                    </li>
+                    <li>
+                        <a href="#activites" id="ancre-activités">Activités</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergements">
                         <div class="hebergements-title">
                             <h2 class="section-title">Hébergements à Marseille</h2>
                         </div>
@@ -95,7 +95,7 @@
                                     <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant deux lits">
                                     <div class="card-content">
                                         <div class="card-txt">
-                                            <h3 class="card-title">Hôtel Chez Amuna</h3>
+                                            <h3 class="card-title">Hôtel Chez Amina</h3>
                                             <p class="card-subtitle">Nuit à partir de 96<span class="euro">€</span></p>
                                         </div>
                                         <div class="card-rating">
@@ -186,7 +186,7 @@
                                 </article>
                             </a>
                         </div>
-                        <button id="boutton-afficher-plus">Afficher plus</button>
+                        <a href="#" id="lien-afficher-plus">Afficher plus</a>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -254,8 +254,100 @@
                     </div>
                 </section>
             </div>
+            <section id="activites">
+                <div class="activites-title">
+                    <h1 class="section-title">Activités à Marseille</h1>
+                </div>
+                <div class="activites-cards">
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/reno-laithienne.jpg" alt="photo du vieux-port à Marseille">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h2 class="card-title">Vieux-Port</h2>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/paul-hermann.jpg" alt="photo du Fort de Pomègues à Marseille">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h2 class="card-title">Fort de Pomègues</h2>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="photo du Parc national des Calanques à Marseille">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h2 class="card-title">Parc national des Calanques</h2>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/florian-wehde.jpg" alt="photo de Notre-Dame-de-la-Garde à Marseille">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h2 class="card-title">Notre-Dame-de-la-Garde</h2>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+        </section>
         </main>
-        <footer></footer>
+        <footer>
+            <div>
+                <h2>À propos</h2>
+                <ul>
+                    <li>
+                        <a href="">Fonctionnement du site</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">Conditions générales</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">Données et confidentialité</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>Nos hébergements</h2>
+                <ul>
+                    <li>
+                        <a href="">Charte qualité</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">Proposer votre hôtel</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>Assistance</h2>
+                <ul>
+                    <li>
+                        <a href="">Centre d'aide</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">Nous contacter</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </body>
 
