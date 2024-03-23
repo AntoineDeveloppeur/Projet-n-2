@@ -292,7 +292,7 @@ form {
     font-weight: bold;
 }
 
-/****** Populaires ***********/
+/****** Populaires ******/
 .populaires {
     width: 32%;
 }
@@ -474,7 +474,6 @@ footer div li {
     }
     header nav {
         width: 100%;
-        max-width: 375px;
         height: auto;
         display: flex;
         justify-content: center;
@@ -601,7 +600,6 @@ footer div li {
     .activites-cards {
         display: flex;
         flex-direction: column;
-        max-width: 500px;
         gap: 15px;
        }
 
