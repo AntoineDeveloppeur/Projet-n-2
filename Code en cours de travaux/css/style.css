@@ -440,7 +440,8 @@ footer div li {
     .activites-cards img {
         height: 200px;
     }
-    
+}
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     main {
@@ -514,13 +515,6 @@ footer div li {
         padding-right: 20px;
     }
 
-    /****** Filtres ******/
-    form {
-        position: relative;
-        border-right: 20px;
-        width: 100%;
-    }
-
     #search-button {
         display: none;
     }
@@ -531,11 +525,18 @@ footer div li {
         top: 0;
         height: 50px;
         width: 49px;
-        display:block;
+        display: block;
         background-color: var(--main-color);
         border-radius: 15px;
         border: none;
         filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    }
+
+    /****** Filtres ******/
+    form {
+        position: relative;
+        border-right: 20px;
+        width: 100%;
     }
 
     #all-filtre-button {
@@ -605,7 +606,7 @@ footer div li {
        }
 
     .activites-cards img {
-        height:200px;
+        height: 200px;
     }
 
     /***** Footer *****/
